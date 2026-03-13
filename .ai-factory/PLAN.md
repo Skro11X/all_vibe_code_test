@@ -46,10 +46,10 @@ Decisions:
 <!-- Commit checkpoint: tasks 1-3 -->
 
 ### Phase 2: Calendar Integration
-- [ ] Task 4: Yandex Calendar CalDAV клиент (depends on 2)
+- [x] Task 4: Yandex Calendar CalDAV клиент (depends on 2)
   - src/calendar_client.py — подключение, CRUD событий
   - list_calendars(), get_upcoming_events(), create_event()
-- [ ] Task 5: Парсинг плана на месяц и создание событий (depends on 3, 4)
+- [x] Task 5: Парсинг плана на месяц и создание событий (depends on 3, 4)
   - src/plan_parser.py — конвейер: текст → DeepSeek → CalDAV события
   - Обработка ошибок, отчёт о создании
 <!-- Commit checkpoint: tasks 4-5 -->
