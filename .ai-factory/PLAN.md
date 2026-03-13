@@ -55,14 +55,14 @@ Decisions:
 <!-- Commit checkpoint: tasks 4-5 -->
 
 ### Phase 3: Telegram Integration
-- [ ] Task 6: Telethon клиент и базовые хендлеры (depends on 2)
+- [x] Task 6: Telethon клиент и базовые хендлеры (depends on 2)
   - src/telegram_client.py — бот на Telethon
   - Команды: /start, /plan, /calendars, /upcoming, /help
   - Свободный чат → DeepSeek
-- [ ] Task 7: Чтение контекста из TG каналов (depends on 6)
+- [x] Task 7: Чтение контекста из TG каналов (depends on 6)
   - src/context_reader.py — чтение сообщений из привязанного канала
   - Поиск по ключевым словам + fallback на последние N сообщений
-- [ ] Task 8: Генерация плана встречи и отправка в саммари-канал (depends on 3, 7)
+- [x] Task 8: Генерация плана встречи и отправка в саммари-канал (depends on 3, 7)
   - src/meeting_prep.py — контекст → DeepSeek → форматированный план → саммари-канал
 <!-- Commit checkpoint: tasks 6-8 -->
 
