@@ -67,11 +67,11 @@ Decisions:
 <!-- Commit checkpoint: tasks 6-8 -->
 
 ### Phase 4: Orchestration
-- [ ] Task 9: Планировщик APScheduler (depends on 4, 8)
+- [x] Task 9: Планировщик APScheduler (depends on 4, 8)
   - src/scheduler.py — проверка ближайших событий каждые 5 мин
   - Триггер подготовки за 15 мин до встречи
   - Дедупликация по UID
-- [ ] Task 10: Главный модуль: запуск и graceful shutdown (depends on 5, 6, 9)
+- [x] Task 10: Главный модуль: запуск и graceful shutdown (depends on 5, 6, 9)
   - src/main.py — инициализация всех компонентов, event loop
   - Обработка SIGINT/SIGTERM
   - Обновить корневой main.py
